@@ -1,0 +1,100 @@
+<div class="projects">
+  <h2>projects</h2>
+  <div class="line"></div>
+  <p>Here you will find some of my projects that i created.</p>
+  <main>
+    <ul>
+      <!-- harryPoter -->
+      <li>
+        <img
+          alt="Harry Potter"
+          [style.transform]="transform"
+          (mousemove)="projectImg($event)"
+          class="PoterGame"
+          src="assets/l-intro-1728679681.jpg"
+          alt=""
+        />
+        <div class="about-project">
+          <h3>quiz game</h3>
+          <p>
+            Harry Potter and the Deathly Hallows Quiz: Answer the Questions and
+            Prove You're a True Fan!
+          </p>
+          <button (click)="harryPoter()" class="caseStudy">case study</button>
+        </div>
+
+        <!-- wallet project -->
+      </li>
+      <li>
+        <img
+          alt="wallet"
+          [style.transform]="transform"
+          (mousemove)="projectImg($event)"
+          class="PoterGame"
+          src="assets/Is-VPN-safe-for-online-banking-1200x628-1.png"
+          alt=""
+        />
+
+        <div class="about-project">
+          <h3>wallet</h3>
+          <p>
+            An app that lets you add money, send money, and interact with
+            real-life APIs to simulate financial transactions.
+          </p>
+          <button (click)="wallet()" class="caseStudy">case study</button>
+        </div>
+      </li>
+      <!-- cars project -->
+      <li>
+        <img
+          alt="cars"
+          [style.transform]="transform"
+          (mousemove)="projectImg($event)"
+          class="PoterGame"
+          src="assets/car-keys.jpg"
+          alt=""
+        />
+        <div class="about-project">
+          <h3>car rental</h3>
+          <p>
+            A car rental app that displays available cars fetched directly from
+            an API.
+          </p>
+          <button (click)="rentCars()" class="caseStudy">case study</button>
+        </div>
+      </li>
+      <!-- lol game -->
+      <li>
+        <img
+          alt="lol game"
+          [style.transform]="transform"
+          (mousemove)="projectImg($event)"
+          class="PoterGame"
+          src="assets/riot-games2233.jpg"
+          alt=""
+        />
+        <div class="about-project">
+          <h3>lol game</h3>
+          <p>League of legends clown environment.</p>
+          <button (click)="lolGame()" class="caseStudy">case study</button>
+        </div>
+      </li>
+      <!-- list -->
+      <li>
+        <img
+          alt="list"
+          [style.transform]="transform"
+          (mousemove)="projectImg($event)"
+          class="PoterGame"
+          src="assets/istockphoto-1181166710-612x612.jpg"
+          alt=""
+        />
+        <div class="about-project">
+          <h3>list app</h3>
+          <p>An app for your supermarket products.</p>
+          <button (click)="list()" class="caseStudy">case study</button>
+        </div>
+      </li>
+    </ul>
+  </main>
+</div>

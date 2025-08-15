@@ -1,0 +1,96 @@
+.project {
+  background-color: rgb(244, 243, 243);
+  height: auto;
+  padding-top: 100px;
+}
+
+h2 {
+  color: black;
+  text-transform: capitalize;
+}
+
+.caseStudy:hover {
+  transform: translateY(-5%);
+}
+main {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 2rem;
+}
+
+.par {
+  width: 540px;
+  text-align: center;
+}
+
+.caseStudy {
+  background-color: rgb(178, 10, 178);
+  color: white;
+  padding: 1rem;
+  width: 150px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-weight: 100;
+  letter-spacing: 1px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s ease-in-out;
+  border: 2px solid transparent;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.projectImg {
+  width: 340px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid rgb(178, 10, 178);
+  border-radius: 10px;
+  transition: transform 1s ease-in-out;
+  pointer-events: auto;
+  transform: skewX(10deg);
+}
+
+.par-project {
+  width: 700px;
+  text-align: center;
+}
+
+h3 {
+  text-transform: capitalize;
+  color: black;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+}
+
+ul li {
+  background-color: rgb(178, 10, 178);
+  color: white;
+  padding: 1rem;
+  width: 150px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-weight: 100;
+  letter-spacing: 1px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s ease-in-out;
+  border: 2px solid transparent;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+}
+
+.goBack {
+  background-color: white;
+  border: 2px solid rgb(178, 10, 178);
+  color: black;
+  padding: 1rem;
+  text-transform: capitalize;
+  border-radius: 4px;
+}

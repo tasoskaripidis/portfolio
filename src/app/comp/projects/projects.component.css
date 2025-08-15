@@ -1,0 +1,143 @@
+.projects {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  margin-top: 6rem;
+  align-items: center;
+}
+
+.projects h2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.line {
+  background-color: rgb(178, 10, 178);
+  height: 6px;
+  width: 50px;
+  border-radius: 3px;
+}
+
+.projects p {
+  color: rgb(92, 92, 92);
+}
+
+.PoterGame {
+  width: 340px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid rgb(178, 10, 178);
+  border-radius: 10px;
+  transition: transform 1s ease-in-out;
+  pointer-events: auto;
+  transform: skewX(10deg);
+}
+
+.PoterGame:hover {
+  transform: scaleX(1.2);
+}
+
+li h3 {
+  text-transform: capitalize;
+  color: black;
+  margin-top: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.caseStudy {
+  background-color: rgb(178, 10, 178);
+  color: white;
+  padding: 1rem;
+  width: 150px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-weight: 100;
+  letter-spacing: 1px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s ease-in-out;
+  border: 2px solid transparent;
+  margin-top: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+li p {
+  text-align: center;
+  width: 320px;
+}
+
+.caseStudy:hover {
+  transform: translateY(-5%);
+}
+
+.about-project {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  li {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  li p {
+    width: auto;
+  }
+
+  .PoterGame {
+    height: 240px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  li {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  li p {
+    width: auto;
+  }
+
+  .PoterGame {
+    height: 240px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  li {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .projects p {
+    font-size: 1.4rem;
+  }
+
+  li p {
+    width: 400px;
+  }
+
+  .PoterGame {
+    height: 240px;
+    width: 400px;
+  }
+}

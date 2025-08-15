@@ -1,0 +1,46 @@
+<div class="navBar">
+  <div class="father-profile">
+    <div class="profile">
+      <img
+        src="assets/c08372c2-a8a2-4ca0-9ee0-2c77350133db (1).jpg"
+        alt="my Image"
+      />
+      <h2>tasos karipidis</h2>
+    </div>
+    <!-- small screen -->
+    @if(getScreenWidth <=740 ){
+    <div class="burger">
+      <!-- burger or x -->
+      @if(openList){
+      <button (click)="listBtn()" class="burgerBtn">
+        <i class="fa-solid fa-list"></i>
+      </button>
+      } @else {
+      <button (click)="listBtn()" class="burgerBtn">
+        <i class="fa-solid fa-x"></i></button
+      >}
+    </div>
+    <!-- big screen list -->
+    }@if(getScreenWidth >= 741) {
+    <div class="list2">
+      <ul>
+        <li><a href="#" (click)="scrollTo('home')">home</a></li>
+        <li><a href="#about" (click)="scrollTo('about')">about</a></li>
+        <li><a href="#projects" (click)="scrollTo('projects')">projects</a></li>
+        <li><a href="#contact" (click)="scrollTo('contact')">contact</a></li>
+      </ul>
+    </div>
+    }
+  </div>
+  <!-- small screen list dropdown -->
+  @if(!openList && getScreenWidth <=740 ){
+  <div class="list">
+    <ul>
+      <li><a href="#" (click)="scrollTo('home')">home</a></li>
+      <li><a href="#about" (click)="scrollTo('abouts')">about</a></li>
+      <li><a href="#projects" (click)="scrollTo('projects')">projects</a></li>
+      <li><a href="#contact" (click)="scrollTo('contact')">contact</a></li>
+    </ul>
+  </div>
+  }
+</div>

@@ -1,0 +1,20 @@
+<div class="dashboard">
+  <header><app-navbar></app-navbar></header>
+  <main>
+    <div class="intro">
+      <h1>Hello, i am <span>tasos karipidis</span></h1>
+      <p>
+        I am an amateur self taught web developer and i am looking to advance!
+      </p>
+      <button (click)="projectBtn('projects')" class="projectBtn">
+        projects
+      </button>
+    </div>
+
+    <ul>
+      <li id="about"><app-about></app-about></li>
+      <li id="projects"><app-projects></app-projects></li>
+      <li id="contact"><app-contact></app-contact></li>
+    </ul>
+  </main>
+</div>
