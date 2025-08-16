@@ -43,4 +43,8 @@ export class ProjectsComponent {
   list() {
     this.route.navigateByUrl('list');
   }
+
+  pets() {
+    this.route.navigateByUrl('pets');
+  }
 }

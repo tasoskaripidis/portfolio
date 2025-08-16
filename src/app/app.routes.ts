@@ -5,6 +5,7 @@ import { WalletComponent } from './projectsFolder/wallet/wallet.component';
 import { CarRentalComponent } from './projectsFolder/car-rental/car-rental.component';
 import { LolComponent } from './projectsFolder/lol/lol.component';
 import { MarketListComponent } from './projectsFolder/market-list/market-list.component';
+import { PetsComponent } from './projectsFolder/pets/pets.component';
 
 export const routes: Routes = [
   {
@@ -16,4 +17,5 @@ export const routes: Routes = [
   { path: 'cars-rental', component: CarRentalComponent },
   { path: 'lol', component: LolComponent },
   { path: 'list', component: MarketListComponent },
+  { path: 'pets', component: PetsComponent },
 ];
